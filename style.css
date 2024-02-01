@@ -1,0 +1,31 @@
+body{
+    background-size:cover;
+}
+
+.heading{
+    width:100%;
+    margin-top:0px;
+    font-size:30px;
+}
+
+.note{
+    font-size:20px;
+    color:black;
+}
+
+#song_name{
+    font-size:20px;
+}
+
+canvas{
+    animation-name:atm;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius:20px;
+    border:black 2px solid;
+}
+
+@keyframes atm {
+    from{box-shadow : 2px 2px 40px blue; }
+    to{box-shadow : 2px 2px 40px purple; }
+}
